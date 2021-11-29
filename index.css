@@ -1,0 +1,40 @@
+
+img.img{
+    height: 570px;
+    
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuerpito{
+    background: linear-gradient( orange , red);
+}
+
+hr{
+    color: yellow;
+}
+
+@media (max-width:599px){
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    img.img{
+        height: 650px;
+        width: 100%;
+    }
+
+    .cuerpito{
+        background: linear-gradient( orange , red);
+    }
+
+    hr{
+        color: yellow;
+    }
+}
